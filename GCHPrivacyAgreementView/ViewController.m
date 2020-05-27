@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ZXPrivacyAgreementView.h"
+#import "GCHPrivacyAgreementView.h"
 @interface ViewController ()
 
 @end
@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor lightGrayColor];
-    ZXPrivacyAgreementView *view = [[ZXPrivacyAgreementView alloc] initWithFrame:self.view.frame];
+     GCHPrivacyAgreementView*view = [[GCHPrivacyAgreementView alloc] initWithFrame:self.view.frame];
     [view showPrivacyAgreementView:self.view];
     
 }

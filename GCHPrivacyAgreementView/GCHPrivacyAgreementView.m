@@ -1,21 +1,20 @@
 //
-//  ZXPrivacyAgreementView.m
 //  GCHPrivacyAgreementView
 //
 //  Created by GCH on 2020/5/8.
 //  Copyright © 2020 cn.hdcb.com. All rights reserved.
 //
 
-#import "ZXPrivacyAgreementView.h"
+#import "GCHPrivacyAgreementView.h"
 #import "UILabel+YBAttributeTextTapAction.h"
 #import "UIColor+Hex.h"
-@interface ZXPrivacyAgreementView()<UITableViewDelegate,UITableViewDataSource>
+@interface GCHPrivacyAgreementView()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *customTableview;
 @property (nonatomic, strong) UIView *contentView;
 @property (nonatomic, strong) UILabel *titleLabel;
 @end
 
-@implementation ZXPrivacyAgreementView
+@implementation GCHPrivacyAgreementView
 
 #define contentViewHeigh  332
 #define contentViewMargin 53

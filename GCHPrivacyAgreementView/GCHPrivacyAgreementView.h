@@ -10,19 +10,19 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class ZXPrivacyAgreementView;
+@class GCHPrivacyAgreementView;
 
-@protocol ZXPrivacyAgreementDelegate <NSObject>
+@protocol GCHPrivacyAgreementDelegate <NSObject>
 
 -(void)clickButton:(NSInteger)buttonIndex
-          withView:(ZXPrivacyAgreementView*)privacyAgreementView;
+          withView:(GCHPrivacyAgreementView*)privacyAgreementView;
 -(void)clickPrivacyAgreement;
 
 @end
 
-@interface ZXPrivacyAgreementView : UIView
+@interface GCHPrivacyAgreementView : UIView
 
-@property (nonatomic, weak) id<ZXPrivacyAgreementDelegate>PAdelegate;
+@property (nonatomic, weak) id<GCHPrivacyAgreementDelegate>PAdelegate;
 @property (nonatomic, strong) NSArray *dataArray;
 -(void)showPrivacyAgreementView:(UIView*)view;
 -(void)hiddenPrivacyAgreementView;
