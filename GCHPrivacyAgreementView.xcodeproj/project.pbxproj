@@ -14,7 +14,7 @@
 		5A70460024650A6D0020951F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7045FF24650A6D0020951F /* Assets.xcassets */; };
 		5A70460324650A6D0020951F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A70460124650A6D0020951F /* LaunchScreen.storyboard */; };
 		5A70460624650A6D0020951F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A70460524650A6D0020951F /* main.m */; };
-		5A70460E24650ABD0020951F /* ZXPrivacyAgreementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A70460D24650ABD0020951F /* ZXPrivacyAgreementView.m */; };
+		5A70460E24650ABD0020951F /* GCHPrivacyAgreementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A70460D24650ABD0020951F /* GCHPrivacyAgreementView.m */; };
 		5A704613246550080020951F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A704612246550080020951F /* UIColor+Hex.m */; };
 		5A704616246550540020951F /* UILabel+YBAttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A704615246550540020951F /* UILabel+YBAttributeTextTapAction.m */; };
 /* End PBXBuildFile section */
@@ -32,8 +32,8 @@
 		5A70460224650A6D0020951F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A70460424650A6D0020951F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A70460524650A6D0020951F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A70460C24650ABD0020951F /* ZXPrivacyAgreementView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXPrivacyAgreementView.h; sourceTree = "<group>"; };
-		5A70460D24650ABD0020951F /* ZXPrivacyAgreementView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXPrivacyAgreementView.m; sourceTree = "<group>"; };
+		5A70460C24650ABD0020951F /* GCHPrivacyAgreementView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCHPrivacyAgreementView.h; sourceTree = "<group>"; };
+		5A70460D24650ABD0020951F /* GCHPrivacyAgreementView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCHPrivacyAgreementView.m; sourceTree = "<group>"; };
 		5A704612246550080020951F /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		5A704614246550540020951F /* UILabel+YBAttributeTextTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YBAttributeTextTapAction.h"; sourceTree = "<group>"; };
 		5A704615246550540020951F /* UILabel+YBAttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YBAttributeTextTapAction.m"; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 				5A7045F724650A6B0020951F /* SceneDelegate.m */,
 				5A7045F924650A6B0020951F /* ViewController.h */,
 				5A7045FA24650A6B0020951F /* ViewController.m */,
-				5A70460C24650ABD0020951F /* ZXPrivacyAgreementView.h */,
-				5A70460D24650ABD0020951F /* ZXPrivacyAgreementView.m */,
+				5A70460C24650ABD0020951F /* GCHPrivacyAgreementView.h */,
+				5A70460D24650ABD0020951F /* GCHPrivacyAgreementView.m */,
 				5A704614246550540020951F /* UILabel+YBAttributeTextTapAction.h */,
 				5A704615246550540020951F /* UILabel+YBAttributeTextTapAction.m */,
 				5A704617246551E90020951F /* UIColor+Hex.h */,
@@ -163,7 +163,7 @@
 			files = (
 				5A7045FB24650A6B0020951F /* ViewController.m in Sources */,
 				5A704613246550080020951F /* UIColor+Hex.m in Sources */,
-				5A70460E24650ABD0020951F /* ZXPrivacyAgreementView.m in Sources */,
+				5A70460E24650ABD0020951F /* GCHPrivacyAgreementView.m in Sources */,
 				5A7045F524650A6B0020951F /* AppDelegate.m in Sources */,
 				5A704616246550540020951F /* UILabel+YBAttributeTextTapAction.m in Sources */,
 				5A70460624650A6D0020951F /* main.m in Sources */,
